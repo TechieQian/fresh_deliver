@@ -1,3 +1,6 @@
+### What
+Refreshes the amazon fresh checkout page like a madman. Plays sound if there's a damn slot open.
+
 1. Clone this repo.
 2. Open up chrome browser.
 3. Go to chrome://extensions/
