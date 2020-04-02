@@ -1,0 +1,12 @@
+{
+  "name": "fresh slot",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "For people who cant click fast enough.",
+  "content_scripts": [
+    {
+      "matches" : ["https://www.amazon.com/gp/buy/shipoptionselect/handlers/display.html?hasWorkingJavascript=1"],
+      "js": ["scrape.js"]
+    }
+  ]
+}
