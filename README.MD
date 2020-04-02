@@ -8,5 +8,6 @@ Refreshes the amazon fresh checkout page like a madman. Plays sound if there's a
 5. Navigate to that folder and hit select.
 6. You should see the plugin installed with no error...
 7. Go to https://www.amazon.com/gp/buy/shipoptionselect/handlers/display.html?hasWorkingJavascript=1
-8. You should see the page refresh every 3s if it doesnt find a slot.
-9. If it does, itll play a sound for about 4 seconds.
+8. Manually navigate your way to the page that allows you to choose slots.
+9. You should see the page refresh every 3s if it doesnt find a slot.
+10. If it does, itll play a sound for about 4 seconds.
