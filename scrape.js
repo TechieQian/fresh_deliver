@@ -1,6 +1,13 @@
 /*
     Author: Qian Wan
-    ISC License
+
+    Description: 
+      Chrome plugin. Luckily, Amazon server-renders their HTML so we can access the DOM without DOMContentLoaded event listener.
+      It looks for the radio input controls and alert's you when there's one that's not disabled (meaning clickable!).
+      It works with all dates on the UI, thanks to everything being rendered on the DOM. 
+    
+    Enhancement: 
+      You can try to extend this script to log time of success. But it'll require a backend :| 
 */
 
 // Init found node to null.
@@ -11,7 +18,7 @@ let found = false;
 const TIMEOUT = 3000; // milliseconds
 const AUDIO_FILE = "https://freesound.org/data/previews/61/61691_384275-lq.mp3";
 
-// Plays audio sound. Choose whatever sound you want
+// Creates the audio tag.
 let audio = new Audio(AUDIO_FILE);
 
 // play sound if found.
