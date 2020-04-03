@@ -8,6 +8,9 @@
     
     Enhancement: 
       You can try to extend this script to log time of success. But it'll require a backend :| 
+
+    Notes :
+      This plugin doesn't work when the computer is in sleep mode.
 */
 
 // Init found node to null.

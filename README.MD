@@ -1,4 +1,5 @@
 ### What
+
 Refreshes the amazon fresh checkout page like a madman. Plays sound if there's a damn slot open.
 
 1. Clone this repo.
@@ -11,3 +12,9 @@ Refreshes the amazon fresh checkout page like a madman. Plays sound if there's a
 8. Manually navigate your way to the page that allows you to choose slots.
 9. You should see the page refresh every 3s if it doesnt find a slot.
 10. If it does, itll play a sound for about 4 seconds.
+
+### Limitations
+
+- Only works on Chrome.
+- Only runs on hard-coded URL (see manifest.json)
+- Doesn't work when computer is asleep.
